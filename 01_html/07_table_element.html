@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 태그</title>
+    <style>
+        /* CSS 블락 */
+        table {
+            border-collapse: collapse;  /*셀과 셀사이의 간격을 없앰*/
+        }
+    </style>
+</head>
+<body>
+    <h1> table 태그 </h1>
+    <hr>
+    <br>
+    <table border="1" align="center" width="700">
+        <tr align="center" bgcolor="#abacee"><td>이름</td><td>주소</td><td>나이</td><td>핸드폰</td></tr>
+        <tr align="center"><td>홍길동</td><td>서울</td><td>1</td><td>010-1111-2222</td></tr>
+        <tr align="center"><td>이순신</td><td>부산</td><td>2</td><td>010-3333-2222</td></tr>
+        <tr align="center"><td>세종대왕</td><td>광주</td><td>3</td><td>010-4444-2222</td></tr>
+    </table>
+
+    <br><br><br><br>
+
+    <table border="1" align="center" width="700">
+
+        <tr align="center">
+            <td rowspan="4" width="100">(사진)</td>
+            <td rowspan="2" width="100" bgcolor="2ee8ef">성명</td>
+            <td width="100" bgcolor="2ee8ef">한글</td>
+            <td width="150">&nbsp;</td>
+            <td width="100" bgcolor="2ee8ef">생년월일</td>
+            <td align="right" width="180"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp년 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp월 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp일&nbsp&nbsp </td>
+        </tr>
+
+        <tr align="center">
+            <td bgcolor="2ee8ef">영문</td>
+            <td></td>
+            <td bgcolor="2ee8ef">전화</td>
+            <td>&nbsp</td>
+        </tr>
+
+
+        <tr align="center">
+            <td bgcolor="2ee8ef">이메일</td>
+            <td colspan="2"></td>
+            <td bgcolor="2ee8ef">휴대폰</td>
+        </tr>
+
+        <tr align="center">
+            <td bgcolor="2ee8ef">주소</td>
+            <td colspan="4"></td>
+        </tr>
+
+    </table>
+
+    <br><br><br><br>
+
+<table border="1" align="center" width="700">
+
+    <tr align="center">
+        <td width="200" bgcolor="2ee8ef">기간</td>
+        <td width="150" bgcolor="2ee8ef">출신교</td>
+        <td width="100" bgcolor="2ee8ef">전공</td>
+        <td width="100" bgcolor="2ee8ef">졸업구분</td>
+        <td width="100" bgcolor="2ee8ef">소재지</td>
+    </tr>
+
+    <tr align="center">
+        <td align="right">년&nbsp&nbsp&nbsp&nbsp&nbsp월&nbsp&nbsp&nbsp&nbsp&nbsp ~ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp년&nbsp&nbsp&nbsp&nbsp&nbsp월&nbsp;</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr align="center">
+        <td align="right">년&nbsp&nbsp&nbsp&nbsp&nbsp월&nbsp&nbsp&nbsp&nbsp&nbsp ~ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp년&nbsp&nbsp&nbsp&nbsp&nbsp월&nbsp;</td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>무료호스팅 사양</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        .logos {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .logos img {
+            height: 40px;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        .note b {
+            color: #c00;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>무료호스팅 사양</h1>
+
+    <table>
+        <tr>
+            <th>서비스</th>
+            <td>Apache 2.x</td>
+        </tr>
+        <tr>
+            <th>PHP</th>
+            <td>7.x</td>
+        </tr>
+        <tr>
+            <th>DB</th>
+            <td>MySQL 8.x</td>
+        </tr>
+        <tr>
+            <th>캐릭터셋</th>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <th>FTP</th>
+            <td>ID 1개 제공 (계정명.dothome.co.kr)</td>
+        </tr>
+        <tr>
+            <th>MySQL DB관리기</th>
+            <td>경로 : 도메인 주소 /myadmin</td>
+        </tr>
+        <tr>
+            <th>CMS 자동설치 지원</th>
+            <td class="logos">
+                <img src="img/1.wordpress.png" alt="WordPress">
+                <img src="img/2.xe.png" alt="XpressEngine">
+                <img src="img/3.gnuboard.png" alt="Gnuboard">
+            </td>
+        </tr>
+        <tr>
+            <th>미지원 기능</th>
+            <td>
+                SSL 보안인증서 설치, SSH, 웹로그, 타사 도메인 연결은 지원하지 않습니다.
+            </td>
+        </tr>
+    </table>
+
+    <div class="note">
+        <b>※ IRC BOT & 방송용 사설 PORT & Compiler & 개인 Daemon & Cron 운영은 허가되지 않습니다.</b><br>
+        <b>※ MySQL은 Localhost 외 외부 접속은 허용하지 않습니다.</b><br>
+        <b>※ GCC, C/C++는 컴파일이 지원되지 않습니다.</b>
+    </div>
+
+</body>
+</html>
